@@ -14,9 +14,9 @@ type spaceXLength = Length<spaceX> // expected 5
 type Length<T extends readonly unknown[]> = T['length']
 ```
 
-Type은 길이가 변경되지 않는 알 수 없는 유형의 배열을 확장합니다.
+T extends readonly unknown[] 로 입력된 타입 변수로 모든 유형의 배열이 올 수 있도록 처리합니다.
 
-Type['length']마지막으로 Type에서 길이 속성에 액세스합니다.
+T['length']마지막으로 T에서 길이 속성에 액세스합니다.
 
 감사합니다!
 
