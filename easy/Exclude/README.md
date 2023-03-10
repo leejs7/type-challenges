@@ -1,6 +1,6 @@
 # type-challenges : Exclude
 
-<내장 제네릭 Exclude<T, U>를 구현>
+### 내장 제네릭 Exclude<T, U>를 구현
 
 ```ts
 // 예시 코드
@@ -10,7 +10,7 @@ type Result = MyExclude<'a' | 'b' | 'c', 'a'> // 'b' | 'c'
 union 타입에서 특정 한 것 들을 제외하고자 하는 것이 목적이다.
 (타입 U에 포함되어 있지 않은 타입 T의 요소 반환)
 
-<a href="https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#distributive-conditional-types">typescript의 Distributive Conditional Types 문법을 사용</a>
+<a href="https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#distributive-conditional-types" target="_blank">typescript의 Distributive Conditional Types 문법</a>
 
 
 ```ts
