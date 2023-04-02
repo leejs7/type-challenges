@@ -1,7 +1,6 @@
 # type-challenges : Concat
 
-## Array.concat유형 시스템에서 JavaScript 기능을 구현하십시오 . 
-## 유형은 두 개의 인수를 사용합니다. 출력은 ltr 순서로 입력을 포함하는 새로운 배열이어야 합니다.
+## Array.concat유형 시스템에서 JavaScript 기능을 구현하십시오. 유형은 두 개의 인수를 사용합니다. 출력은 ltr 순서로 입력을 포함하는 새로운 배열이어야 합니다.
 
 ```ts
 // 예시 코드
